@@ -2,6 +2,9 @@
   Style for Tab Categories
 */
 
+@use '../addon/variables' as *;
+@use '../addon/module' as *;
+
 %category-icon-color {
   color: gray;
 }
@@ -32,7 +35,7 @@
     @extend %category-icon-color;
 
     font-size: 86%; /* fontawesome icons */
-  }
+  }Ï
 
   .list-group-item {
     border-left: none;

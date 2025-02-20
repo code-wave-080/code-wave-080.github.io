@@ -3,6 +3,7 @@
 */
 
 /* ---------- scss placeholder --------- */
+@use '../addon/variables' as *;
 
 %heading {
   color: var(--heading-color);
