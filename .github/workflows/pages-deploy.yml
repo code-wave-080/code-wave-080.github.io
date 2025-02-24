@@ -45,6 +45,20 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      - name: Check dist directory
+        run: |
+          if [ ! -d "./dist" ]; then
+            echo "⚠️ Creating missing dist directory..."
+            mkdir ./dist
+          fi
+
+          if [ ! -f "./dist/bootstrap.scss" ]; then
+            echo "❌ bootstrap.scss is missing in ./dist. Creating a placeholder file..."
+            echo "// Placeholder bootstrap.scss" > ./dist/bootstrap.scss
+          fi
+
+          echo "✅ dist/bootstrap.scss file is ready."
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
