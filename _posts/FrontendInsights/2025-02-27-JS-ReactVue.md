@@ -1,5 +1,4 @@
 ---
-# Header
 title: "[JS] React와 Vue의 차이점 및 핵심 체크 포인트"
 name: code_wave
 writer: code_wave

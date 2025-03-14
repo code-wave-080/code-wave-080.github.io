@@ -1,5 +1,4 @@
 ---
-# Header
 title: "[JS] Map과 Object의 차이점"
 name: code_wave
 writer: code_wave
@@ -12,8 +11,6 @@ toc_sticky: true
 
 date: 2025-03-10
 last_modified_at: 2025-03-10
-
-# --- 아래 부터 content
 ---
 
 `Map`과 일반 객체(`Object`)는 JavaScript에서 데이터를 키-값 쌍으로 저장할 때 사용됩니다. 하지만 이 두 가지는 기능과 사용 목적에서 차이가 있습니다. 아래에서 주된 차이점과 언제 각각을 사용하는 것이 적합한지에 대해 설명하겠습니다.

@@ -1,5 +1,4 @@
 ---
-# Header
 title: "[JS] 트리쉐이킹(Tree shaking)"
 name: code_wave
 writer: code_wave

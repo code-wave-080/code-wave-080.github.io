@@ -1,5 +1,4 @@
 ---
-# Header
 title: "[JS] 얕은복사, 깊은복사"
 name: code_wave
 writer: code_wave

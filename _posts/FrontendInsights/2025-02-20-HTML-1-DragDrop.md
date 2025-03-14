@@ -1,5 +1,4 @@
 ---
-# Header
 title: "[HTML] Drag & Drop API"
 name: code_wave
 writer: code_wave
